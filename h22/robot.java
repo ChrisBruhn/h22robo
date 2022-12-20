@@ -19,6 +19,6 @@ public class Jesper extends JuniorRobot {
     }
 
     public double throwAngle(double value){
-        return ((((value * 12345) % 3 - 123) % 41 + 21) % 90) / 2;
+        return (((value * 12345) % 3 - 123) % 41 + 21) % 90 - 45;
     }
 }
