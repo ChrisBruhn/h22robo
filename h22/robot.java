@@ -2,7 +2,8 @@ package h22;
 
 import robocode.*;
 
-public class JesperRobotten extends JuniorRobot {
+//Klassisk Jesper throw
+public class Jesper extends JuniorRobot {
 
     public void run() {
         while (true) {
@@ -12,9 +13,12 @@ public class JesperRobotten extends JuniorRobot {
         }
     }
 
-    Random rand = new Random();
     public void onScannedRobot() {
-        turnTo(scannedAngle + rand.nextInt(10, 45));
+        turnTo(scannedAngle + throwAngle(scannedAngle));
         fire(1);
+    }
+
+    public double throwAngle(double value){
+        return ((((value * 12345) % 3 - 123) % 41 + 21) % 90) / 2;
     }
 }
