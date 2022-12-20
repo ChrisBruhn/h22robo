@@ -8,7 +8,7 @@ import java.awt.*;
 /**
  * Target - a robot by Mikkel Ellegaard
  */
-public class Target extends JuniorRobot
+public class TargetBecauseSkillIssue extends JuniorRobot
 {
 	/**
 	 * run: Target's default behavior
