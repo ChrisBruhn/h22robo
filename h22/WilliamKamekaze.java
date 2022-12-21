@@ -1,4 +1,4 @@
-package William;
+package s22;
 import robocode.*;
 
 // API help : https://robocode.sourceforge.io/docs/robocode/robocode/JuniorRobot.html
@@ -21,7 +21,7 @@ public class WilliamKamekaze extends JuniorRobot
 		// Robot main loop
 		while(true) {
 			// Replace the next 4 lines with any behavior you would like
-			turnAheadRight(360);
+			//turnAheadRight(360);
 	
 		}
 	}

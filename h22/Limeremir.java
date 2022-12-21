@@ -1,4 +1,4 @@
-package limeremir;
+package s22;
 import robocode.*;
 
 

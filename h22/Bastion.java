@@ -1,4 +1,4 @@
-package Overwatch;
+package s22;
 import robocode.*;
 
 // API help : https://robocode.sourceforge.io/docs/robocode/robocode/JuniorRobot.html

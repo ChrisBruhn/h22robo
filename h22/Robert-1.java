@@ -6,7 +6,7 @@ import robocode.*;
 /**
  * Uoghui - a robot by (your name here)
  */
-public class Robert extends JuniorRobot
+public class Robert-1 extends JuniorRobot
 {
 	/**
 	 * run: Uoghui's default behavior
@@ -23,7 +23,7 @@ public class Robert extends JuniorRobot
 			// Replace the next 4 lines with any behavior you would like
 			ahead(50);
 			turnGunRight(360);
-			
+
 		}
 	}
 
@@ -32,7 +32,7 @@ public class Robert extends JuniorRobot
 	 */
 	public void onScannedRobot() {
 		// Replace the next line with any behavior you would like
-	turnGunTo(scannedAngle);	
+	turnGunTo(scannedAngle);
 	if (scannedDistance<150) {
 		fire(3);
 	} else if (scannedDistance<=300) {
@@ -51,7 +51,7 @@ public class Robert extends JuniorRobot
 		turnRight(hitByBulletAngle);
 		ahead(200);
 	}
-	
+
 	/**
 	 * onHitWall: What to do when you hit a wall
 	 */
@@ -59,5 +59,5 @@ public class Robert extends JuniorRobot
 		// Replace the next line with any behavior you would like
 		turnRight(90);
 		ahead(200);
-	}	
+	}
 }

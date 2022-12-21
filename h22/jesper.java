@@ -1,4 +1,4 @@
-package h22;
+package s22;
 
 import robocode.*;
 
