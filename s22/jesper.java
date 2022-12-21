@@ -18,7 +18,7 @@ public class Jesper extends JuniorRobot {
         fire(1);
     }
 
-    public int throwAngle(int value){
+    public double throwAngle(double value){
         return (((value * 12345) % 3 - 123) % 41 + 21) % 90 - 45;
     }
 }
